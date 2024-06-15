@@ -49,6 +49,7 @@ Note: There is one more place except the above 4 and that is the _Stash_. There 
 - **git push origin --delete remote-branch-name-here** - will delete a branch on the remote repository
 - **git log** - will display the history of the commits
 - **git log -- myfile.txt** - will log the commits, which involve only the specific file we want to check
+- **git log --author=myemail@gmail.com** - will list the commits associated with specific email
 
 - **git branch -a** - will display all branches. There will be an '\*', which shows the currently selected branch
 - **git branch somename** - will create a new branch. By just creating it, it will not be auto selected
